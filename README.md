@@ -1,37 +1,37 @@
 
 # 🧠 MNIST Classifier with PyTorch
 
-> Uma jornada do zero ao modelo exportado com PyTorch, focada em aprendizado e qualidade!
+> A journey from scratch to an exported PyTorch model, focused on learning and quality!
 
 ![MNIST Example](https://datasets.activeloop.ai/wp-content/uploads/2019/12/MNIST-handwritten-digits-dataset-visualized-by-Activeloop.webp)
 
-## 🚀 Sobre o Projeto
+## 🚀 About the Project
 
-Este projeto implementa uma rede neural convolucional (CNN) em PyTorch para classificar dígitos manuscritos do famoso dataset **MNIST**. Ele cobre **todo o ciclo de vida do modelo**:
+This project implements a Convolutional Neural Network (CNN) in PyTorch to classify handwritten digits from the popular **MNIST** dataset. It covers the **entire model lifecycle**:
 
-- ✅ Pré-processamento e carregamento de dados
-- ✅ Treinamento e avaliação
-- ✅ Exportação para ONNX
-- ✅ Análise de métricas e visualização de resultados
+- ✅ Preprocessing and data loading
+- ✅ Training and evaluation
+- ✅ Exporting to ONNX
+- ✅ Metrics analysis and visualization
 
-Além disso, o código é organizado, documentado e pronto para deploy futuro.
+Additionally, the code is well-organized, documented, and ready for future deployment.
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```bash
 .
-├── data_loader.py         # Funções de carregamento de dados
-├── model.py               # Arquitetura da rede neural
-├── train.py               # Loop de treino, teste e salvamento do modelo
-├── eval.ipynb             # Análise de métricas pós-treino
-├── teste-img-net.ipynb    # Testes com imagens personalizadas
-├── to_onnx.ipynb          # Exportação do modelo para ONNX
-├── image.png              # Exemplo visual de predição
-├── results/               # Métricas salvas em CSV
-├── checkpoints/           # Modelos treinados salvos
+├── data_loader.py         # Data loading functions
+├── model.py               # Neural network architecture
+├── train.py               # Training loop, evaluation, and model saving
+├── eval.ipynb             # Post-training metrics analysis
+├── teste-img-net.ipynb    # Tests with custom images
+├── to_onnx.ipynb          # Exporting the model to ONNX
+├── image.png              # Visual prediction example
+├── results/               # Metrics saved in CSV
+├── checkpoints/           # Saved trained models
 ```
 
-## 🧠 Arquitetura do Modelo
+## 🧠 Model Architecture
 
 ```python
 Net(
@@ -48,54 +48,53 @@ Net(
 )
 ```
 
-## 🔧 Como Rodar
+## 🔧 How to Run
 
-### 1. Clonar o repositório
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/matheuspgamba/mnist-pytorch.git
 cd mnist-pytorch
 ```
 
-### 2. Instalar dependências
+### 2. Install dependencies
 
 ```bash
 pip install torch torchvision matplotlib
 ```
 
-### 3. Treinar o modelo
+### 3. Train the model
 
 ```bash
 python train.py --epochs 5 --batch-size 64 --lr 0.001
 ```
 
-Os resultados são salvos automaticamente em `results/metrics.csv` e o melhor modelo em `checkpoints/best_model.pth`.
+Results will be automatically saved in `results/metrics.csv` and the best model in `checkpoints/best_model.pth`.
 
-### 4. Avaliação e Exportação
+### 4. Evaluation and Export
 
-Use os notebooks:
+Use the notebooks:
 
-- 📊 `eval.ipynb` – visualização das métricas de treino/teste
-- 🧪 `teste-img-net.ipynb` – teste com imagens customizadas
-- 📤 `to_onnx.ipynb` – exporta o modelo treinado para o formato ONNX
+- 📊 `eval.ipynb` – visualizing training/testing metrics
+- 🧪 `teste-img-net.ipynb` – testing with custom images
+- 📤 `to_onnx.ipynb` – exporting the trained model to ONNX format
 
-## 🏁 Resultados
+## 🏁 Results
 
-Durante o treinamento, o modelo atinge uma acurácia de **+99%**, com desempenho consistente e perda decrescente. Aqui está um exemplo de resultado salvo:
+During training, the model reaches an accuracy of **+99%**, with consistent performance and decreasing loss. Here's an example of a saved result:
 
-![Resultado Exemplo](./result_eval.png)
+![Sample Result](./result_eval.png)
 
-
-## 🤖 Tecnologias Usadas
+## 🤖 Technologies Used
 
 - [PyTorch](https://pytorch.org/)
 - [Torchvision](https://pytorch.org/vision/stable/)
 - [Jupyter Notebook](https://jupyter.org/)
 - [ONNX](https://onnx.ai/)
 
-## ✍️ Autor
+## ✍️ Author
 
-Feito com 💻, ☕ e 🤘 por **Matheus Paz Gamba**  
+Made with 💻, ☕ and 🤘 by **Matheus Paz Gamba**  
 [LinkedIn](https://www.linkedin.com/in/matheusgamba) | [GitHub](https://github.com/matheuspgamba)
 
 ---
