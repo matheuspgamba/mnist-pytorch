@@ -100,4 +100,4 @@ Feito com 💻, ☕ e 🤘 por **Matheus Paz Gamba**
 
 ---
 
-> “Sabemos o que somos, mas não sabemos o que podemos ser.” – Shakespeare
+> “Per aspera ad astra.”
