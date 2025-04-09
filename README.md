@@ -3,7 +3,7 @@
 
 > Uma jornada do zero ao modelo exportado com PyTorch, focada em aprendizado e qualidade!
 
-![MNIST Example](./image.png)
+![MNIST Example](https://datasets.activeloop.ai/wp-content/uploads/2019/12/MNIST-handwritten-digits-dataset-visualized-by-Activeloop.webp)
 
 ## 🚀 Sobre o Projeto
 
@@ -53,7 +53,7 @@ Net(
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seuusuario/mnist-pytorch.git
+git clone https://github.com/matheuspgamba/mnist-pytorch.git
 cd mnist-pytorch
 ```
 
@@ -83,13 +83,8 @@ Use os notebooks:
 
 Durante o treinamento, o modelo atinge uma acurácia de **+99%**, com desempenho consistente e perda decrescente. Aqui está um exemplo de resultado salvo:
 
-![Resultado Exemplo](./image.png)
+![Resultado Exemplo](./result_eval.png)
 
-## 🔮 Próximos Passos
-
-- [ ] Deploy com Streamlit
-- [ ] Versão Mobile com ONNX Runtime
-- [ ] Adição de mais notebooks explicativos
 
 ## 🤖 Tecnologias Usadas
 
@@ -101,7 +96,7 @@ Durante o treinamento, o modelo atinge uma acurácia de **+99%**, com desempenho
 ## ✍️ Autor
 
 Feito com 💻, ☕ e 🤘 por **Matheus Paz Gamba**  
-[LinkedIn](https://www.linkedin.com/in/matheuspazgamba) | [GitHub](https://github.com/seuusuario)
+[LinkedIn](https://www.linkedin.com/in/matheusgamba) | [GitHub](https://github.com/matheuspgamba)
 
 ---
 
